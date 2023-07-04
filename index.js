@@ -55,6 +55,7 @@ function readBoolean() {
 function main() {
     let testcases = Number(readLine()); // took input as string and then converted to a number
     for(let i = 0; i < testcases; i++) {
+        let x,y ;
         [x, y] = readPairOfNumbers();
         x = Number(x);
         y = Number(y);
